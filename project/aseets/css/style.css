@@ -175,10 +175,6 @@ nav  ul li a{
     margin-top: -76%;
     margin-left: -3%;
 }
-/* .hero-content{
-  margin-right: ;
-
-} */
  .hero-img{
   margin-left:50px;
  }
@@ -413,8 +409,6 @@ h4 span{
    border-radius: 15px;
    padding: 20px;
    transition:border-color 0.3s ease;
-   
-  
 }
 .pest-solution img{
     width:358px;
@@ -492,6 +486,220 @@ h4 span{
     width: 100%;
     height: 100%;
     border-radius: 30px;
+}
+.protect{
+    margin-bottom: 180px;
+}
+.rectengle2{
+    width: 1280px;
+    height: 322.11px;
+    margin: 20px auto;
+    display: flex;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    position: relative;
+    column-gap: 60px;
+}
+.rid-pests .pest-heading{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 50px;
+}
+.pest-rid{
+    width:380px;
+    height:302.11px; 
+    padding:30px; 
+    border:1px solid  rgb(108, 124, 129,0.5);
+    border-radius: 15px;
+    position: relative;
+}
+
+.pest-rid img{
+    width: 35px;
+    height: 35px;
+    margin-bottom: 20px;
+  
+}
+.pest-rid h5{
+    font-size: 18px;
+    font-weight: 600;
+    color:#17191B;
+    position: absolute;
+    top:15%;
+    left:87%;
+   
+}
+.pest-rid span{
+    font-size: 24px;
+    color:#17191B;
+    font-weight: 500;
+}
+.pest-rid p{
+    font-size: 18px;
+    color:#6C7C81;
+    margin-top: 20px;
+}
+.rid-pests{
+    margin-bottom: 180px;
+}
+
+.New-Customers .pest-heading{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 50px;
+    align-items: center;
+    justify-content: center;
+}
+.rectengle3{
+    width: 1280px;
+    height: 520px;
+    margin: 20px auto;
+    display: flex;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    position: relative;
+    column-gap: 20px;
+}
+.exclusive-deal
+{
+    width: 615px;
+    height: 500px;
+    margin: 20px auto;
+    background-color:#ffffff;
+    background-image: url("https://live.sociolib.com/antipest/wp-content/uploads/sites/5/2025/03/male-pest-control-worker-in-uniform-spraying-chemi-2024-11-17-13-19-48-utc.webp");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius:30px;  
+    position: relative; 
+}
+.exclusive-deal h4 , .exclusive-deal1 h4{
+    font-size: 36px;
+    font-weight: 600;
+    color: #ffffff;
+    line-height: 1.2;
+    position: absolute;
+    top:78%;
+    left:5%;
+    z-index: 2; 
+}
+.exclusive-deal1{
+    width: 615px;
+    height: 500px;
+    margin: 20px auto;
+    background-color:#ffffff;
+    background-image: url("https://live.sociolib.com/antipest/wp-content/uploads/sites/5/2025/03/pest-control-worker-spraying-pesticides-on-metal-s-2024-11-19-11-20-32-utc.webp");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius:30px;
+    position: relative;
+    
+}
+.exclusive-deal::before,
+.exclusive-deal1::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.3); 
+    border-radius: 30px;
+    z-index: 1; 
+}
+.New-Customers{
+    margin-bottom:180px;
+}
+.review-img img{ 
+    padding:10px;
+    width: 525.48px;
+    height: 505.48px;  
+    border-radius:30px;
+}
+.shape1{
+    width:500px;
+    height: 475px;
+    background-color: #2C7BE3;
+    border-radius: 15px;
+    margin-top: -74%;
+    margin-left: -2%;
+}
+.review-section{
+    margin-bottom: 180px;
+}
+.review-section{
+    position: relative;   
+}
+.text1 span{
+    font-size: 36px;
+    font-weight: 600;
+    line-height: 1.3;
+    color: #17191B;
+    position: absolute;
+    top:8%;
+}
+.text1 h4{
+    font-size: 18px;
+    text-transform:uppercase;
+    font-weight: 600;
+    color:#17191B;
+    position: absolute;
+    top:65%;
+ 
+}
+.text1 h3{
+    font-size: 18px;
+    font-weight: 400;
+    color:#6C7C81;
+    position: absolute;
+    top:70%;
+}
+.btn-ternary span{
+       font-size: 18px;
+       color:#FFFFFF;
+}
+.btn-ternary{
+    display: inline-block;
+    width: 188px;
+    height:56px;
+    border-radius: 12px;
+    font-size: 18px;
+    padding:12px 35px;
+    background-color: #3584EC;
+    position: absolute;
+    top:81%;
+}
+.btn-ternary span{
+    align-items: center;
+    display: inline-block;
+    transform: translateX(70%);
+    transform: translateY(50%);
+    justify-content: center;
+}
+.text1 {
+    display: flex;
+}
+.text1 a h4{
+      font-size: 18px;
+      color:#000000;
+      font-weight: 600;
+}
+.question .pest-heading{
+    font-size: 60px;
+    font-weight: 600;
+    text-align: left;
+    margin-bottom: 10px;
+}
+.rectengle4{
+    width: 1280px;
+    height: 520px;
+    margin: 20px auto;
+    display: flex;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    position: relative;
+    column-gap: 20px;
 }
 
 
